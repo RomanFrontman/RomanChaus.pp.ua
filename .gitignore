@@ -1,0 +1,37 @@
+# Виняток для базової конфігурації
+wp-config.php
+
+# Всі файли ядра WordPress (оновлюються через панель адміністрування)
+wp-admin/
+wp-includes/
+
+# Тимчасові файли і кеш
+*.log
+*.sql
+*.tar.gz
+*.zip
+wp-content/cache/
+wp-content/uploads/backups/
+wp-content/upgrade/
+wp-content/uploads/cache/
+wp-content/uploads/*.tmp
+debug.log
+
+# Плагіни, встановлені через адмінку
+wp-content/plugins/
+!wp-content/plugins/your-custom-plugin/
+
+# Теми, встановлені через адмінку
+wp-content/themes/
+!wp-content/themes/your-custom-theme/
+
+# Інші сторонні файли
+node_modules/
+vendor/
+
+# Системні файли
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.env
