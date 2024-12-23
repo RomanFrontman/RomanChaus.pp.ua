@@ -19,11 +19,11 @@ debug.log
 
 # Плагіни, встановлені через адмінку
 wp-content/plugins/
-!wp-content/plugins/your-custom-plugin/
+!wp-content/plugins/real-estate-plugin/
 
 # Теми, встановлені через адмінку
 wp-content/themes/
-!wp-content/themes/your-custom-theme/
+!wp-content/themes/understrap-child-main/
 
 # Інші сторонні файли
 node_modules/
