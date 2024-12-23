@@ -1,7 +1,7 @@
 # Виняток для базової конфігурації
 wp-config.php
 
-# Всі файли ядра WordPress (оновлюються через панель адміністрування)
+# Файли ядра WordPress (оновлюються через панель адміністрування)
 wp-admin/
 wp-includes/
 
@@ -19,13 +19,21 @@ debug.log
 
 # Плагіни, встановлені через адмінку
 wp-content/plugins/
-!wp-content/plugins/real-estate-plugin/
+!wp-content/plugins/real-estate-plugin/ # Зберігаємо кастомний плагін
 
 # Теми, встановлені через адмінку
 wp-content/themes/
-!wp-content/themes/understrap-child-main/
+!wp-content/themes/understrap-child-main/ # Зберігаємо кастомну тему
 
-# Інші сторонні файли
+# Винятки для кастомної теми (якщо працюємо з SCSS)
+wp-content/themes/understrap-child-main/node_modules/
+wp-content/themes/understrap-child-main/scss/*.css
+wp-content/themes/understrap-child-main/scss/*.css.map
+!wp-content/themes/understrap-child-main/scss/style.min.css # Мініфікований CSS дозволено пушити
+
+wp-content/themes/understrap-child-main/js/*.min.js # Ігноруємо зкомпільовані JS
+
+# Інші сторонні файли та папки
 node_modules/
 vendor/
 
