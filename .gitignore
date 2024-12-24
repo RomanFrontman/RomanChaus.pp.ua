@@ -25,13 +25,14 @@ wp-content/plugins/
 wp-content/themes/
 !wp-content/themes/understrap-child-main/ # Зберігаємо кастомну тему
 
-# Винятки для кастомної теми (якщо працюємо з SCSS)
+# Винятки для кастомної теми (нова структура)
 wp-content/themes/understrap-child-main/node_modules/
-wp-content/themes/understrap-child-main/scss/*.css
-wp-content/themes/understrap-child-main/scss/*.css.map
-!wp-content/themes/understrap-child-main/scss/style.min.css # Мініфікований CSS дозволено пушити
+wp-content/themes/understrap-child-main/assets/css/*.css
+wp-content/themes/understrap-child-main/assets/css/*.css.map
+!wp-content/themes/understrap-child-main/assets/css/style.min.css # Мініфікований CSS дозволено пушити
 
-wp-content/themes/understrap-child-main/js/*.min.js # Ігноруємо зкомпільовані JS
+wp-content/themes/understrap-child-main/assets/js/*.min.js # Ігноруємо зкомпільовані JS
+wp-content/themes/understrap-child-main/assets/images/tmp/ # Ігнор тимчасових зображень, якщо є
 
 # Інші сторонні файли та папки
 node_modules/
