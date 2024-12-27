@@ -7,9 +7,9 @@ function understrap_child_theme_scripts() {
     // wp_deregister_style('understrap-parent');
 
     wp_enqueue_style( 'understrap-child-main', get_stylesheet_uri() );
-    wp_enqueue_style( 'understrap-child-common', get_stylesheet_directory_uri() . '/scss/style.css', array(), '1.3' );
+    wp_enqueue_style( 'understrap-child-common', get_stylesheet_directory_uri() . '/assets/scss/style.css', array(), '1.3' );
     
-    wp_enqueue_script( 'understrap-child-main', get_stylesheet_directory_uri() . '/js/main.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'understrap-child-main', get_stylesheet_directory_uri() . '/assets/js/main.js', array(), '1.0.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'understrap_child_theme_scripts', 20 );
 
