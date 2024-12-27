@@ -30,6 +30,7 @@ wp-content/themes/understrap-child-main/node_modules/
 wp-content/themes/understrap-child-main/assets/css/*.css
 wp-content/themes/understrap-child-main/assets/css/*.css.map
 !wp-content/themes/understrap-child-main/assets/css/style.min.css # Мініфікований CSS дозволено пушити
+!wp-content/themes/understrap-child-main/assets/
 
 wp-content/themes/understrap-child-main/assets/js/*.min.js # Ігноруємо зкомпільовані JS
 wp-content/themes/understrap-child-main/assets/images/tmp/ # Ігнор тимчасових зображень, якщо є

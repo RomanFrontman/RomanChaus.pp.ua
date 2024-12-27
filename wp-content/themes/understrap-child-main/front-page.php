@@ -21,8 +21,20 @@ $posts = get_posts([
     </div>
 </section>
 
+<section class="carousel">
+        <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image1.jpg" alt="" class="image" draggable="false">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image2.jpg" alt="" class="image" draggable="false">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image3.jpg" alt="" class="image" draggable="false">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image4.jpg" alt="" class="image" draggable="false">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image5.jpg" alt="" class="image" draggable="false">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/image6.jpg" alt="" class="image" draggable="false">
+    </div>
+</section>
+
 <section class="posts-section">
     <div class="section-wrapper">
+        <h2>Find your perfect home</h2>
         <div class="aside">
             <?php echo do_shortcode('[aside_filters]'); ?>
         </div>
